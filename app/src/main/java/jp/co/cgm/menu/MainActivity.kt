@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         webView.webViewClient = webViewClient
         webView.webChromeClient = WebChromeClient()
-        webView.loadUrl("https://medicine.cgmmedical.jp/index.html")
+        webView.loadUrl("https://medicine.cgmgroup.jp/")
 
         onBackPressedDispatcher.addCallback(this, object :OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
